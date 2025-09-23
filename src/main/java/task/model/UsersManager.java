@@ -39,7 +39,7 @@ public class UsersManager {
 		String message = String.format("Dear %s, \n\nYour Password is:%s",U.getFullname(),U.getPassword());
 		
 		
-		return ((EmailManager) EM).sendEmail(U.getEmail(),"Library-Management-System :password Recovery",message);
+		return ((EmailManager) EM).sendEmail(U.getEmail(),TASK-Management-System :password Recovery",message);
 		
 	}
 	
